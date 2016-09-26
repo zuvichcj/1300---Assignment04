@@ -1,0 +1,163 @@
+html, body {
+    border: 0;
+    font: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 100%;
+}
+
+p {
+    font-family: 'Cardo', serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+}
+
+/* table {
+    font-family: 'Cardo', serif;
+    align-content: center;
+} */
+
+table{
+    margin: 0 auto;
+    font-family: 'Cardo', serif;
+}
+
+caption {
+    caption-side: bottom;
+    align-content: center;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+/* Classes in order of the page elements */
+
+.nav_span {
+    margin-right: 2em;    
+}
+
+.nav_span a {
+    text-decoration: none;
+}
+
+#nav_bar a:link {
+    color: #000000
+}
+
+#nav_bar a:hover {
+    color: #756bb1;
+}
+
+.spacer {
+    height: 120px;
+    width: 100%;
+}
+
+/* ID's */
+
+#sticky_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#banner {
+    background-color: #1c9099;
+    color: #ffffff;
+    width: 100%;
+    max-height: 200px;
+}
+
+#banner > h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 960px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#global_nav {
+    border-bottom: solid 2px #a6bddb;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+    max-width: 960px;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+}
+
+#global_nav a:link {
+    color: #000000;
+}
+
+#global_nav a:hover {
+    color: #756bb1;
+}
+
+#container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    max-width: 77%;
+    /* 672px */
+    align-content: center;
+    float: left;
+}
+
+#column_2 {
+    max-width: 23%;
+    /* 288 */
+    float: left;
+    margin-top: 1.5em;
+/*    margin-right: 0.3em;*/
+    /* position: relative; */
+}
+
+.img_center {
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.tab_center {
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
